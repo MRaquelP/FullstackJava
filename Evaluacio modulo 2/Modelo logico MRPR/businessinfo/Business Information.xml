@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0D48051E-4F5C-E162-405C-E3826CB04E93">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-27 22:44:18 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

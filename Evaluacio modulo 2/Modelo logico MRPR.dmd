@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo logico MRPR" id="60AA5CFE-D8D5-6971-5A63-66426927933F" version="3.5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-27 22:44:17 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>60AA5CFE-D8D5-6971-5A63-66426927933F</designId>
+</OSDM_Design>

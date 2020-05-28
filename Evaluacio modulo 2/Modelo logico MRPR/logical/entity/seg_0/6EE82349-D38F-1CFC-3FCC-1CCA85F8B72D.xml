@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EE82349-D38F-1CFC-3FCC-1CCA85F8B72D" name="resultado_test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:21:06 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="resultado_test" id="8331A296-2104-83EE-2BAD-BDE8E391EBAC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:29:08 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="test_idTest" id="22CE07EC-D51D-DA4D-BA77-F0E506644046">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:33:42 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregunta_idPregunta" id="FCAFEBBF-BD79-AC52-3860-FE838BDAA1C9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:34:29 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="respuesta" id="5AFB6AC8-15AF-74B1-7ABD-FD5BAA854CD4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:34:58 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="18A51ED7-53F2-3384-1AD2-3118F866FDDD">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:27 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="AD4C8F62-AB8E-55F0-0F0B-E27F6643A631">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:43:23 UTC</createdTime>
+<generatorID>3C3BB330-8BC0-8143-1A12-EF3B7D463BC4</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<referedAttribute>5FC26A0B-4049-891C-F0AF-FE283C37FC51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTest" id="EABFB38D-F7F8-F4DB-9F63-8A06618768BE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:43:30 UTC</createdTime>
+<generatorID>0A941563-7B10-A666-FB2C-5F9519CAF82A</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<referedAttribute>FB135E28-8E75-A661-A475-BFBDD8F9CAFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPregunta" id="F97F4189-8462-BBB1-BD16-3F333B7E8C1C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:45:48 UTC</createdTime>
+<generatorID>2E4C6F6B-9FA2-24DD-53D4-A91AAA78E106</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<referedAttribute>F4183C62-4552-D105-520D-8D663BD0EC6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTest1" id="5894B4CA-686C-B782-C4B0-19B36B15DBDD">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:45:48 UTC</createdTime>
+<generatorID>2E4C6F6B-9FA2-24DD-53D4-A91AAA78E106</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<referedAttribute>89D10EAB-311E-3ACE-A68B-C3A4CCF99B86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="038FB8B9-3B39-5FBC-3B8B-91A2A6FB4790" name="resultado_test PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:33:20 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22CE07EC-D51D-DA4D-BA77-F0E506644046</attributeRef>
+<attributeRef>8331A296-2104-83EE-2BAD-BDE8E391EBAC</attributeRef>
+<attributeRef>FCAFEBBF-BD79-AC52-3860-FE838BDAA1C9</attributeRef>
+<attributeRef>AD4C8F62-AB8E-55F0-0F0B-E27F6643A631</attributeRef>
+<attributeRef>EABFB38D-F7F8-F4DB-9F63-8A06618768BE</attributeRef>
+<attributeRef>F97F4189-8462-BBB1-BD16-3F333B7E8C1C</attributeRef>
+<attributeRef>5894B4CA-686C-B782-C4B0-19B36B15DBDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

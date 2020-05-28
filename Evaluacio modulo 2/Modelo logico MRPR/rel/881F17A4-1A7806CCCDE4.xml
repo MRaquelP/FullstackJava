@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" mainViewID="28BC2732-6B00-62FF-4452-F0C3FC95C0B6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-27 22:44:25 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

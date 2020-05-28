@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E45F6191-4194-2AC7-C2C0-56272E7BAC98" name="estudiante">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:02:54 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="5FC26A0B-4049-891C-F0AF-FE283C37FC51">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:11:40 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B0B557B9-4B49-BB4F-AC2C-596AF4BBA09A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:15:15 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_p" id="DDFC214A-43D0-41B7-D550-748BBE29386F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:15:29 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_m" id="1DEDC498-FA6D-B9D1-D94D-469609678424">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:20:14 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPrograma" id="80D5DAC2-9576-92FB-6F4A-718EC003B76C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:43:16 UTC</createdTime>
+<generatorID>C5A2412D-E6BA-2670-4AB3-66722C5C45C8</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="true"/>
+</engineerTo>
+<referedAttribute>63A71D97-1DCC-21EF-EC40-005FD676462A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC483C7D-42FD-DD95-12F5-544D9BF50177" name="estudiante PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:15:06 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="881F17A4-4F6E-C0BA-ACD1-1A7806CCCDE4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FC26A0B-4049-891C-F0AF-FE283C37FC51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

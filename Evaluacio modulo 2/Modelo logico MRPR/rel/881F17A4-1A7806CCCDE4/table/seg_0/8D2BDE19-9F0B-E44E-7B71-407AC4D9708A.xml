@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D2BDE19-9F0B-E44E-7B71-407AC4D9708A" name="test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>84D679D1-1FCD-B411-7871-9E3247A6F286</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTest" id="4C96B9D4-C59D-2747-3F35-D00E1072E11F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>FB135E28-8E75-A661-A475-BFBDD8F9CAFB</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="06C550D6-0DCD-3F92-44E1-AA07C9BF32A9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>42991559-7D99-7E77-971E-44D756082042</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BFBE1BC0-DE27-6D54-32F9-858CD3E72F37">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>D8ACF9C6-327B-4ED5-EDC6-F5D106421BD3</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="E1FC1E1D-BE0B-EA03-9C12-702288F8F589">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>4CFF370D-2F2A-CE65-E968-1EB7ADCA5E09</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaCreacion" id="8A0585B3-4B59-F7F2-5A40-093FD43E4A3E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>FB73F681-A4BB-DF3E-61C5-59DB6C65AB6A</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programa_idPrograma" id="5353BD9E-48A7-2BC5-2F40-2A83580A23AD">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:51:23 UTC</createdTime>
+<generatorID>6E4996AA-F8E3-2204-C00F-391EC778E43A</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="965AC47F-F2D6-7CF6-735A-BFF3016C264D" referredColumn="76D7C2E1-69B5-2767-8C5E-2E96EEA73FDE"/>
+</associations>
+</Column>
+<Column name="unidad_id_unidad" id="6251B8C7-76E3-9237-04F8-02763A18FC02">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:51:23 UTC</createdTime>
+<generatorID>DAB0CD8B-1672-1917-330C-9BF8F5D66B2E</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E6B475D-CE68-3F08-1A66-13EEE7B0C294" referredColumn="273EB252-6DD0-7877-E571-8090C8A99824"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5602074A-832E-6AA7-F669-50C32CF23116" name="test_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:35:52 UTC</createdTime>
+<generatorID>B9BC055B-67E9-3262-0A38-2AA3C3B36A89</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C96B9D4-C59D-2747-3F35-D00E1072E11F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECA13160-4595-1FDE-AB3E-2908174B973A" name="test__IDX">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:51:23 UTC</createdTime>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BF84E78B-C78D-C42B-BDE0-D0F7D42684B9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6251B8C7-76E3-9237-04F8-02763A18FC02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2343C767-E30A-B350-D53C-7A7E09C7BDD5" name="test_programa_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:51:23 UTC</createdTime>
+<generatorID>FAB6FEB8-49BC-94F2-5134-5D9A5CFF795D</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5353BD9E-48A7-2BC5-2F40-2A83580A23AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1454FCA9-9233-AD23-A7C5-4FA87385AF4F" name="test_unidad_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-28 00:51:23 UTC</createdTime>
+<generatorID>BF84E78B-C78D-C42B-BDE0-D0F7D42684B9</generatorID>
+<ownerDesignName>Modelo logico MRPR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6251B8C7-76E3-9237-04F8-02763A18FC02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
